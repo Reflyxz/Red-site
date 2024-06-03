@@ -1,0 +1,10 @@
+body{
+    background: url('https://www.designi.com.br/images/preview/11029432.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.texto{
+    background-color: black;
+    color: aliceblue;
+}

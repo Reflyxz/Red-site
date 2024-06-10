@@ -1,0 +1,539 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+
+body {
+    overflow-x: hidden;/* Remove a rolagem horizontal */
+    max-height: 100vh; /* Limita a altura máxima do corpo à altura da janela de visualização */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se o conteúdo ultrapassar a altura máxima */
+    background-color: rgb(14, 13, 13); /* Cinza claro */
+    font-family: "Jersey 15", sans-serif;
+    margin: 60px;
+    padding: 20px; 
+  }
+  
+
+  .Titulo h1{
+    border-color:red rgb(41, 39, 39) red rgb(41, 39, 39) ;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-block-size: 40px;
+    block-size: 40px;
+    font-size: 30px;
+    font-family: "Jersey 15", sans-serif;
+    background-color: #241a1a;
+    background-color: rgb(41, 39, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+  }
+
+  
+  .imagemlogored{
+    
+    width: 1000px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    margin-left: -12px;
+  }
+
+
+  /*Texto embaixo da logo r3d*/
+  .containertxtinicial {
+    margin-top: -175px;
+    font-family: "jersey 15", sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 8vh; /* Faz com que o container ocupe toda a altura da tela */
+}
+
+  .blocotxtinicial {
+    background: transparent;
+}
+
+.txtinicial {
+  max-height: 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+/*Texto embaixo da logo r3d*/
+
+
+
+
+  /*Botao da logo RED*/
+.containerbotaored{
+  opacity: 0;
+  font-family: "jersey 15", sans-serif;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  
+}
+
+.botaored{
+  top: 169px;
+  right: 37.5vw ;
+  position: absolute;
+  height: 14vw;
+  width: 22vw;
+  background:transparent;
+ 
+}
+
+
+/*Botao da logo RED*/
+
+
+
+
+  /*Bloco escrito Festas*/
+
+
+.botaofestas{
+    font-family: "jersey 15", sans-serif;
+    color: red;
+    border-radius: 50px;
+    border: 2px solid red;
+    cursor: pointer;
+    margin-top: 100px; /* Adiciona espaço acima do elemento */
+    margin-left: 20px; /* Adiciona espaço à esquerda do elemento */
+    margin-right: 20px; /* Adiciona espaço à direita do elemento */
+    background-color: rgb(41, 39, 39);;
+    width: 75vh;
+    height: 80px;
+    font-size: 40px;
+}
+
+.botaofestas:hover{
+  box-shadow: 0 0 15px red ;
+}
+
+  .festastopo{
+    font-family: "jersey 15", sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+  }
+  
+ .linkcor{
+    color: red;
+  }
+
+ 
+/*Bloco escrito Festas*/
+
+
+/*Bloco escrito SOBRE festas*/
+.sobrefestas{
+    margin-left: -8px;
+    text-align: center;
+    width: 90%;
+    margin-top: -5px;
+    border: 2px solid red;
+    font-size: 33px;
+    background-color: rgb(41, 39, 39);
+    color: red;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/*Bloco escrito SOBRE festas*/
+
+
+/*Texto escito direitos autorais */
+.rodape h2{
+  border-color:red rgb(41, 39, 39) red rgb(41, 39, 39) ;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 60px;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  block-size: 23px;
+  font-size: 18px;
+  font-family: "Jersey 15", sans-serif;
+  background-color: #241a1a;
+  background-color: rgb(41, 39, 39);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 13px;
+}
+
+
+
+
+/*direitos-autorais*/
+.direitos-autorais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: -140px;
+  
+
+}
+
+.direitos-autorais p{
+color: #fff;
+font-size: 16px;
+}
+/*direitos-autorais*/
+
+/* Texto direitos-autorais*/
+
+.TextoRodaPe{
+  margin-top: -21px;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
+/*Redes Social*/
+.social_media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: -20vh;
+
+}
+
+.social_media a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9900;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 3 5px rgba(0, 0, 0, 3 );
+
+}
+
+.social_media a:not(:last-child){
+  margin-right: 30px;
+
+}
+
+.social_media a:hover .balloon{
+  top: -45px;
+  opacity: 1;
+
+}
+
+.social_media svg{
+    height: 50px;     
+    filter: drop-shadow(0 5px rgba(0,0,0.2))
+  }
+
+
+.social_media .balloon{
+  position: absolute;
+  top: -50px;
+  width: 100px;
+  height: 25px;
+  opacity: 0;
+  border-radius:30px;
+  transition: top .2s ease-in-out, opacity .2 ease-in-out;
+  filter: drop-shadow(0 5px 10px rgba(0,0,0,.2));
+
+}
+
+.social_media .name{
+  position: relative;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9900;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social_media .name::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #ff9900;
+  transform: rotate(5deg);
+  bottom: -10px;
+  border-radius: 4px;
+
+
+}
+
+
+.social_media a.whatswapp,
+.social_media a.whatswapp .name,
+.social_media a.whatswapp .name::before{
+  background-color: green;
+  cursor: pointer;
+}
+
+.social_media a.tiktok,
+.social_media a.tiktok .name,
+.social_media a.tiktok .name::before{
+  cursor: pointer;
+  background-color: rgb(151, 25, 151);
+}
+
+
+
+/* Modifica o tamanho do ícone */
+ion-icon {
+  font-size: 30px; /* tamanho desejado */
+}
+
+/* Modifica a cor do ícone */
+ion-icon {
+  color: #ffffff; /* cor desejada */
+}
+
+
+/*Redes Social*/
+
+
+
+
+ 
+/* SOBRE AS FESTAS */
+
+  
+  #Festas {
+    
+    margin-left: 10px;
+    background-color: rgb(41, 39, 39);
+    padding: 13px;
+    color: cornsilk;
+    
+  }
+
+
+  #Festas{
+    background-color: #241a1a;
+  }
+
+#ListaFestas {
+    font-size: 50px , 1.9em;
+    font-weight: 1000;
+    font-style:unset;
+}
+
+
+/* SOBRE AS FESTAS CORES E TEXTOS */
+  #Sobre2 p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+  }
+
+ #Sobre7 p{
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(245, 234, 234);
+ }
+
+
+
+  .sob1-color{
+    color: red;
+    font-size: 21px;
+  }
+
+  .sob2-color{
+    font-size: 20px;
+    color: yellow;
+  }
+ 
+  .sob3-color{
+    font-size: 20px;
+    color: rgb(11, 7, 228);
+  }
+
+  .sob4-color{
+    font-size: 20px;
+    color: purple;
+  }
+
+  .sob5-color{
+    font-size: 20px;
+    color: rgb(231, 16, 195);
+  }
+
+  .sob6-color{
+    font-size: 20px;
+    color: rgb(3, 211, 65);
+  }
+
+
+ 
+
+
+  #Sobre3 p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+  }
+
+  #Sobre4 p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+  }
+
+  #Sobre5 p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+  }
+
+  #Sobre6 p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+  }
+
+  #Sobre7{
+    margin-bottom: -40px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+  }
+
+ #Listas{
+  color: rgb(255, 255, 255) ;
+
+ }
+
+
+ .icons{  
+    top: 1600px;
+    position: absolute;
+    bottom: 40px;
+    left: -50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+ }
+
+ .icons li{
+   list-style: none;
+
+ }
+
+ .icons li a{
+   display:block ;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: rgb(255, 0, 0);
+   margin-left: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 0.3s ease-in-out ;
+
+ }
+
+ .icons li a:hover{
+   background-color: rgb(32, 31, 31) ;
+   transform: translateY(-10px);
+
+
+ }
+
+ .icons li a img{
+  transform: scale(0.5);
+  filter: invert(1);
+
+
+ }
+
+
+ h2 {
+    color:#fff;
+    text-align: center;
+    background-color: #271515;
+    padding: 20px;
+  }
+
+  
+  img {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 70px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: cornsilk;
+  }
+  
+  /* Estilos para elementos em destaque */
+  strong {
+    font-weight: bold;
+  }
+  
+  em {
+    font-style: italic;
+    color: cornsilk;
+  }
+  
+  mark {
+    background-color: rgb(215, 236, 19);
+  }
+
+  .jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Tipografia responsiva */
+  @media (max-width: 768px) {
+    h1, h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+      color: cornsilk;
+    }
+
+
+
+
+}
